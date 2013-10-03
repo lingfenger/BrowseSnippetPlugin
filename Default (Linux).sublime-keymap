@@ -1,0 +1,10 @@
+[
+    { 
+        "keys": ["ctrl+alt+s"], "command": "browse_snippet_plugin",
+        "args": {"ftype": "sublime-snippet"}
+    },
+    { 
+        "keys": ["ctrl+alt+a"], "command": "browse_snippet_plugin",
+         "args": {"ftype": "py"}
+    }
+]
