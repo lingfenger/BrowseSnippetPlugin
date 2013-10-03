@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "BrowseFile: Snippet",
+        "command": "browse_snippet_plugin",
+        "args": {"ftype": "sublime-snippet"}
+    },
+    {
+        "caption": "BrowseFile: Plugin",
+        "command": "browse_snippet_plugin",
+        "args": {"ftype": "py"}
+    }
+]
