@@ -1,0 +1,94 @@
+[
+	{  
+        "id": "file",
+		"children":
+		[
+        	{
+				"caption": "Browse Snippet Plugin...",
+				"children":
+				[
+					{
+						"command": "browse_snippet_plugin",
+						"args": {"ftype": "sublime-snippet"},
+						"caption": "Open Snippet",
+					},
+					{ "caption": "-" },
+					{
+						"command": "browse_snippet_plugin",
+						"args": {"ftype": "py"},
+						"caption": "Open Plugin"
+					}
+				]
+     		}
+		]
+	},
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+     			"caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+            		{
+            			"caption": "BrowseSnippetPlugin",
+            			"children":
+            			[
+            				{
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/BrowseSnippetPlugin/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/BrowseSnippetPlugin/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/BrowseSnippetPlugin/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+            			]
+            		}
+                ]
+     		}     
+     	]
+	}
+]
