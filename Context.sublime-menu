@@ -1,0 +1,16 @@
+[
+    {"caption":"-"},
+    {
+        "command": "browse_snippet_plugin",
+        "args": {"ftype": "sublime-snippet"},
+       // "id":"browse_snippet",
+        "caption":"Open Snippet File"
+    },
+    {
+        "command": "browse_snippet_plugin",
+         "args": {"ftype": "py"},
+       // "id":"browse_plugin",
+        "caption":"Open Plugin File"
+    },
+    {"caption":"-"}
+]
